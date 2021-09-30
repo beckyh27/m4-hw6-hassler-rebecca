@@ -25,7 +25,6 @@ function getPizzaOrder() {
   // YOUR CODE HERE
   if(typeof crust === 'string' && crust) {
     pizza.crust = crust.trim().toLowerCase()
-    console.log(pizza.crust)
     if (pizza.crust === 'thick') {
       pizza.cost += thickCrustUpcharge
     }
